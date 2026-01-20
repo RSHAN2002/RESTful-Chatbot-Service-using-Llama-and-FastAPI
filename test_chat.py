@@ -4,9 +4,7 @@ import requests
 api_url = "http://127.0.0.1:5000/chatbot"  # Update the URL if the Flask server is running elsewhere
 
 # Define the request payload
-test_payload = {
-    "message": "What is LLM?"
-}
+test_payload = {"message": "What is LLM?.."}
 
 # Send the POST request
 test_response = requests.post(api_url, json=test_payload)
